@@ -1,0 +1,83 @@
+html{height:100%}
+body{font:15px/23px 'Raleway',sans-serif;margin:0;padding:0;height:100%;width:100%;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}
+p{font-size:20px;line-height:140%;text-align:center}
+p1{font-size:15px;line-height:140%;}
+ul li{display:inline-block;list-style:none;padding-right:10px;}
+table{margin:10px auto}
+.wrapper{z-index:600;position:relative}
+.pattern{background-image:url(../images/pattern.png);background-repeat:repeat;background-attachment:scroll;width:100%;height:100%;position:absolute;top:0;left:0}
+.divider{background-image:url(../images/divider.png);display:block;width:269px;height:227px;margin:10px auto}
+#colorize{color:#fff;font-family:'Lato',sans-serif;font-size:70px}
+.big-background{z-index:550;text-align:center;height:100%;min-height:100%;position:relative;overflow:hidden}
+.big-background .big-background-container{width:830px;max-width:100%;display:inline-block;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+.big-background-title{font-family:'Open Sans',sans-serif;font-size:71px;color:#fff;font-weight:300;text-transform:uppercase;text-align:center;margin-bottom:10;padding-top:10;display:inline-block;background-attachment:scroll;background-repeat:repeat-x;background-position:top center}
+.big-background-title1{font-family:'Open Sans',sans-serif;font-size:71px;color:#f1c40f;font-weight:300;text-transform:uppercase;text-align:center;margin-bottom:10;padding-top:10;display:inline-block;background-attachment:scroll;background-repeat:repeat-x;background-position:top center}
+.big-background-title3{font-family:'Open Sans',sans-serif;font-size:40px;color:#f1c40f;font-weight:300;text-transform:uppercase;text-align:center;margin-bottom:10;padding-top:10;display:inline-block;background-attachment:scroll;background-repeat:repeat-x;background-position:top center}
+.big-background-title2{font-family:'Open Sans',sans-serif;font-size:40px;color:#fff;font-weight:300;text-transform:uppercase;text-align:center;margin-bottom:10;padding-top:10;display:inline-block;background-attachment:scroll;background-repeat:repeat-x;background-position:top center}
+a.big-background-btn{font-family:'Lato',sans-serif;font-size:13px;text-transform:uppercase;text-decoration:none;color:#fff;background:transparent;border:2px solid #fff;padding:10px 14px;cursor:pointer;letter-spacing:2px;text-align:center;display:inline-block;-webkit-transition:.4s background ease;-moz-transition:.4s background ease;-o-transition:.4s background ease;transition:.4s background ease;}
+.big-background-btn:hover{color:#fff;background:rgba(255,255,255,0.20)}
+.big-background-default-image{background:url(../images/sunset.jpg);background-repeat:no-repeat;background-position:center center;background-size:cover;width:100%;height:100%;z-index:0;backface-visibility:hidden}
+.about-section{font-family:'Lato',sans-serif;color:#7f8c8d;background:#fff;padding:20px 20px}
+.about-section1{font-family:'Lato',sans-serif;background:#2c3e50;padding:30px 20px}
+.about-section-container{text-align:center;padding-bottom:20px}
+.about-section-title{font-family:'Raleway',sans-serif;font-size:30px;background:#fff;color:#3d566e;padding:0 35px;margin-bottom:22px;background-attachment:scroll;background-repeat:repeat-x;background-position:center center;text-transform:uppercase}
+a.about-section-btn{font-family:'Lato',sans-serif;font-size:13px;text-transform:uppercase;text-decoration:none;color:#34495e;background:transparent;border:2px solid #34495e;padding:10px 14px;cursor:pointer;letter-spacing:2px;text-align:center;display:inline-block;-webkit-transition:.4s background ease;-moz-transition:.4s background ease;-o-transition:.4s background ease;transition:.4s background ease;}
+a.about-section-btn1{font-family:'Lato',sans-serif;font-size:13px;text-transform:uppercase;text-decoration:none;color:#0BA;background:transparent;border:2px solid #34495e;padding:10px 14px;cursor:pointer;letter-spacing:2px;text-align:center;display:inline-block;-webkit-transition:.4s background ease;-moz-transition:.4s background ease;-o-transition:.4s background ease;transition:.4s background ease;}
+.about-section-btn:hover{color:#fff;background:#34495e;}
+.about-section-btn1:hover{color:#fff;background:#34495e;}
+.small-background-section{font-family:'Raleway',sans-serif;padding:100px 0;position:relative;width:100%;overflow:hidden}
+.small-background-container{position:relative;text-align:center}
+.small-background-title{font-size:30px;color:#f1c40f;font-weight:300;z-index:10;display:inline-block;text-transform:uppercase;margin-bottom:20px;margin-top:20px;position:relative;background-attachment:scroll;background-repeat:repeat-x;background-position:top center}
+.socials a{color:#fff}
+.socials a:hover{color:#bdc3c7}
+@media screen and (max-width:768px){.about-section-title{line-height:1}
+}
+@media screen and (max-width:480px){.big-background-title{font-size:58px}
+.small-background-title{line-height:1}
+}
+@media screen and (max-width:360px){.big-background-title,#colorize{line-height:1}
+}
+@media screen and (max-width:320px){.small-background-title{font-size:30px}
+}
+.nav_up{
+	padding:7px;
+	background-color:white;
+	border:1px solid #CCC;
+	position:fixed;
+	background:transparent url(../images/arrow_up.png) no-repeat top left;
+	background-position:50% 50%;
+	width:20px;
+	height:20px;
+	bottom:10px;
+	opacity:0.7;
+	left:30px;
+	white-space:nowrap;
+	cursor: pointer;
+	-moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+    -khtml-border-top-left-radius:3px;
+	-khtml-border-top-right-radius:3px;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+.nav_down{
+	padding:7px;
+	background-color:white;
+	border:1px solid #CCC;
+	position:fixed;
+	background:transparent url(../images/arrow_down.png) no-repeat top left;
+	background-position:50% 50%;
+	width:20px;
+	height:20px;
+	bottom:10px;
+	opacity:0.7;
+	left:70px;
+	white-space:nowrap;
+	cursor: pointer;
+	-moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+    -khtml-border-top-left-radius:3px;
+	-khtml-border-top-right-radius:3px;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}

@@ -1,0 +1,37 @@
+.popup_dream-farm {
+	background:#2a2f33;
+	width:100%;	
+	position:fixed;
+	bottom: 0;		
+	left: 0;
+	z-index:999;
+	display: none;
+	padding:10px;
+	box-sizing:border-box;
+}
+.policymessage{
+	width:100%; height:100%; display:block; color:#fff; border:2px solid #636b71; box-shadow: inset -3px 5px 17px 7px #282d2f; padding:10px; box-sizing:border-box;
+}
+.popup_dream-farm .no-thanks {
+	display: none;
+	color: #60bd60;
+	cursor: pointer;
+	//**position: absolute;
+	top: 10px;
+	right: 10px;
+	**//
+	text-decoration: underline;
+}
+.moreinfo {
+	color: #f94646;
+	cursor: pointer;
+	//**position: absolute;
+	top: 10px;
+	right: 10px;
+	**//
+	text-decoration: underline;
+}
+.popup_dream-farm .no-thanks:hover {
+	text-decoration: none;
+}
+

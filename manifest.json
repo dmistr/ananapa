@@ -1,0 +1,8 @@
+{
+    "api_version": 4,
+    "layout": { 
+	 "logo": "http://ananapa.ru/Images/yandex.png",
+         "color": "#ffffff",
+         "show_title": "internal"
+        }
+}
